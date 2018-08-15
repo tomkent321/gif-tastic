@@ -1,0 +1,50 @@
+
+/* button, */
+div,
+form,
+input {
+  margin: 10px;
+
+}
+
+button {
+color: white;
+background-color: rgb(60, 139, 235);
+}
+
+.float-pics {
+float: left;
+}
+
+#kid-pic{
+opacity: 1;
+
+}
+.display-row {
+background-color: rgb(60, 139, 235);
+height: 900px;
+}
+
+#animal-form {
+font-size: 20px;
+margin-top: 50px
+}
+.animal-pen {
+border: 6px rgb(60, 139, 235) solid;
+
+}
+.navbar{
+/* //font-family: 'Baloo Bhai', cursive; */
+font-family: 'Margarine', cursive;
+}
+
+.pic-style {
+
+border: 5px rgb(60, 139, 235) solid;
+}
+
+#label-color {
+color: white;
+}
+
+
