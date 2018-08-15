@@ -17,7 +17,7 @@
         
         
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        animal + "&api_key=dc6zaTOxFJmzC&limit=7&rating=g";
+        animal + "&api_key=dc6zaTOxFJmzC&limit=10&rating=g";
         // Creating an AJAX call for the specific animal button being clicked
         $.ajax({
           url: queryURL,
@@ -39,9 +39,13 @@ console.log(results);
 
             var animalDiv = $("<div>");
             var animalImage = $("<img>");
+
             animalImage.attr("src", results[i].images.fixed_height_still.url).attr("data-animate",results[i].images.fixed_height.url).attr("data-still",results[i].images.fixed_height_still.url).attr("data-state","still").addClass("gif");
             animalImage.addClass("float-pics pic-style");
             animalDiv.append(animalImage);
+            
+            
+
 
             $("#gifs-appear-here").append(animalDiv);
 
