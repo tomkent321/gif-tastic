@@ -4,7 +4,7 @@
       // Initial array of animals
 
 
-      var animals = [];
+      var animals = ["dog","cat","shark"];
 
     
 
