@@ -39,16 +39,25 @@ console.log(results);
 
             var animalDiv = $("<div>");
             var animalImage = $("<img>");
+            var rating = $("<p>");
 
-            animalImage.attr("src", results[i].images.fixed_height_still.url).attr("data-animate",results[i].images.fixed_height.url).attr("data-still",results[i].images.fixed_height_still.url).attr("data-state","still").addClass("gif");
-            animalImage.addClass("float-pics pic-style");
-            animalDiv.append(animalImage);
+            rating.text("rating: " + results[i].rating).addClass("rate-hold");
             
+            animalDiv.addClass("img-hold");
+
+            animalImage.attr("src", results[i].images.fixed_height_still.url).attr("data-animate",results[i].images.fixed_height.url).attr("data-still",results[i].images.fixed_height_still.url).attr("data-state","still")
+            animalImage.addClass("gif");
+            // animalImage.addClass("float-pics pic-style");
+            // animalImage.attr('id', 'img' + i);
+
+            animalDiv.append(animalImage).append(rating);
             
+          
 
 
             $("#gifs-appear-here").append(animalDiv);
 
+            
           }
         });
 

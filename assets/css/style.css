@@ -73,3 +73,14 @@ figcaption {
    width: 200px;
    float: left;
  } 
+
+ .img-hold {
+     float: left;
+ }
+
+ .rate-hold{
+
+    color:rgb(155, 191, 211);
+    text-align: left;
+    font-size: 12px;
+ }
