@@ -19,35 +19,35 @@
 <nav class="navbar navbar-dark bg-primary">
     <a class="navbar-brand" href="#">
       <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-      <h1>Timmy's Find Animals Game</h1>
+      <h1>Timmy's Spell the Animals Game</h1>
     </a>
   </nav>
 
   <div class="container">
     
 
-    <!-- Movies will Get Dumped Here -->
-    <!-- <div id="movies-view"></div> -->
-
     
 <!-- <div class="row">
 
   
 </div> -->
-<div class="row first-row bg-primary">
+<div class="row first-row">
+
+    <div class="col-lg-8">
+    
+    
+        <form id="animal-form">
+          <label for="animal-input" id = "label-color"><h3>Spell an animal here:&nbsp; &nbsp; </h3></label>
+          <input type="text" id="animal-input" autocomplete="off">
+          
+    
+        
+          <input id="add-animal" type="submit" value="Click to add!">
+        </form>
+      </div>
     <div class="col-lg-3">
         <img src="assets/images/timmy.png" alt="timmy pic" id="kid-pic"style="width:150px;height:120px;" >
       </div>
-  <div class="col-lg-8">
-    <form id="animal-form">
-      <label for="animal-input" id = "label-color"><h3>Add an animal here:&nbsp; &nbsp; </h3></label>
-      <input type="text" id="animal-input" autocomplete="off">
-      
-
-      <!-- Button triggers new animal to be added -->
-      <input id="add-animal" type="submit" value="Click to add!">
-    </form>
-  </div>
   
 
   </div>
@@ -67,6 +67,7 @@
    
 
       <div class="row display-row">
+            <div id="gifs-instruction">Click on a picture to make it go</div>
             <div class = "col-lg-12" id="gifs-appear-here">
             </div>
       </div>

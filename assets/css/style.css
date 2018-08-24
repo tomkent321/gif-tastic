@@ -3,13 +3,23 @@
 div,
 form,
 input {
-  margin: 10px;
+  margin: 4px;
 
+}
+
+#add-animal {
+    background-color: rgb(46, 89, 42);
+    color: white;
+}
+
+.bg-primary {
+    background-image:linear-gradient(to right green , yellow);
+    background-color: blueviolet;
 }
 
 button {
 color: white;
-background-color: rgb(60, 139, 235);
+background-color: rgb(46, 89, 42);
 }
 
 /* .float-pics {
@@ -18,19 +28,24 @@ float: left;
 
 #kid-pic{
 opacity: 1;
+border: 4px white solid;
+float: right;
+margin-left: 20px;
 
 }
-.display-row {
+/* .display-row {
+background-image: 
 background-color: rgb(60, 139, 235);
 height: 1100px;
-}
+} */
 
 #animal-form {
 font-size: 20px;
 margin-top: 50px
 }
 .animal-pen {
-border: 6px rgb(60, 139, 235) solid;
+border: 6px rgb(46, 89, 42) solid;
+background-color: rgb(46, 89, 42);
 
 }
 .navbar{
@@ -40,7 +55,7 @@ font-family: 'Margarine', cursive;
 
 .pic-style {
 
-border: 5px rgb(60, 139, 235) solid;
+border: 5px rgb(42, 176, 30) solid;
 float: left;
 position: relative;
 }
@@ -84,3 +99,32 @@ figcaption {
     text-align: left;
     font-size: 12px;
  }
+
+ body {
+    background-image: url("../images/background-jungle.jpg");
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    background-image: url("../images/background-jungle.jpg");
+
+}
+
+.first-row{
+    background-image: linear-gradient(to right green , yellow);
+}
+
+#animal-input{
+    border: 2px solid green;
+}
+
+#gifs-instruction {
+    color:white;
+    font-size: 20px;
+    margin-left:23px;
+}
+
+.animal-btn {
+    border: 2px white solid;
+}
